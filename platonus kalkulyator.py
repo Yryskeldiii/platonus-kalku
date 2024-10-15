@@ -1,0 +1,6 @@
+auditornuyi = float(input("ortasha bagasyn engiz (0-ден 100-ge dein): "))
+bir_aralyk_baqylau = float(input("2 shi aralyk baqylau bagasy (0-ден 100-ge dein): "))
+eki_aralyk_baqylau = float(input("2 shi aralyk baqylau bagasy (0-ден 100-ge dein): "))
+session_baqasy = float(input("sessiadan algan baga (0-ден 100-ge dein): "))
+qorytyndy_baqa = (auditornuyi * 0.4 +bir_aralyk_baqylau*0.1+eki_aralyk_baqylau *0.1+ session_baqasy * 0.4)
+print("Сіздің қорытынды бағаңыз: ", qorytyndy_baqa)
